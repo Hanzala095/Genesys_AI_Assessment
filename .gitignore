@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+
+data/raw/
+data/extracted_frames/
+
+.vscode/
+
+outputs/logs/
+
+*.mp4

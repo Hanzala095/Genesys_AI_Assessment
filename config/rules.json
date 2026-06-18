@@ -1,0 +1,49 @@
+{
+    "0_safe_walkway_violation": {
+        "severity": "MEDIUM",
+        "policy_section": "3.3.2",
+        "observable_indicator": "Person outside green walkway"
+    },
+
+    "1_unauthorized_intervention": {
+        "severity": "HIGH",
+        "policy_section": "4.3.2",
+        "observable_indicator": "Unauthorized equipment intervention"
+    },
+
+    "2_opened_panel_cover": {
+        "severity": "LOW",
+        "policy_section": "5.2.2",
+        "observable_indicator": "Electrical panel left open"
+    },
+
+    "3_carrying_overload_with_forklift": {
+        "severity": "CRITICAL",
+        "policy_section": "6.3.2",
+        "observable_indicator": "Forklift carrying overload"
+    },
+
+    "4_safe_walkway": {
+        "severity": "SAFE",
+        "policy_section": "3.3.1",
+        "observable_indicator": "Person inside designated walkway"
+    },
+
+    "5_authorized_intervention": {
+        "severity": "SAFE",
+        "policy_section": "4.3.1",
+        "observable_indicator": "Authorized intervention"
+    },
+
+    "6_closed_panel_cover": {
+        "severity": "SAFE",
+        "policy_section": "5.2.1",
+        "observable_indicator": "Panel cover closed"
+    },
+
+    "7_safe_carrying": {
+        "severity": "SAFE",
+        "policy_section": "6.3.1",
+        "observable_indicator": "Safe forklift carrying"
+    }
+}
