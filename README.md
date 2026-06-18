@@ -84,21 +84,23 @@ Features include:
 
 ## System Architecture
 
+```text
 Policy PDF
-↓
+    ↓
 Policy Parser
-↓
+    ↓
 Rule Generator
-↓
+    ↓
 rules.json
-↓
+    ↓
 Detection Model
-↓
+    ↓
 Severity Engine
-↓
+    ↓
 SQLite Database
-↓
+    ↓
 Streamlit Dashboard
+```
 
 ---
 
